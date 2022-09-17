@@ -1,0 +1,69 @@
+.box {
+
+    background: url(../../img/127977-tsvetok-rozovye_cvety-dekorativnoe_iskusstvo-natyurmort-rozovyj-1920x1080.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+H3 {
+    color: red;
+}
+
+h4 {
+    color: green;
+}
+
+h5 {
+    color: green;
+}
+
+h6 {
+    color: green;
+}
+
+h7 {
+    color: green;
+}
+
+h8 {
+    color: green;
+}
+
+h9 {
+    color: green;
+}
+
+h10 {
+    color: green;
+}
+
+h11 {
+    color: green;
+}
+
+h12 {
+    color: green;
+}
+
+pre {
+    padding-left: 450px;
+}
+
+pre {
+    padding-right: 250px;
+}
