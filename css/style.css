@@ -17,16 +17,12 @@ html {
 
 .top_line {
     text-align: center;
-    width: 1920px;
     height: 50px;
     background: lightgrey;
 }
 
 .top_line_menu {
     width: 447px;
-    height: 17px;
-    left: 736px;
-    top: 17px;
     display: inline-block;
 }
 
@@ -154,14 +150,18 @@ html {
 }
 
 /* БЛОК№5 */
-.goods {
-    text-align: center;
+.goods{
+    padding: 80px 0;
+}
+.container_goods{
+    max-width: 1200px;
+    margin: auto;
 }
 
 .item {
     background: white;
     display: inline-block;
-    padding: 25px 65px;
+    padding: 25px 30px;
     text-align: center;
 }
 
@@ -205,6 +205,7 @@ html {
 }
 
 /* БЛОК№6 */
+
 .block6 {
     background: red;
 }
@@ -216,55 +217,3 @@ html {
     margin-left: 405px;
 }
 
-.subscribe {
-    /* display: inline-block; */
-    margin-left: 405px;
-    width: 540px;
-    height: 212px;
-    background: green;
-}
-
-.subscribe6_1 {
-    margin-left: 40px;
-    margin-top: 35px;
-    width: 250px;height: 17px;
-}
-.subscribe6_1_1{
-    margin-top: 35px;
-}
-.subscribe6_2 {
-    margin-top: 25px;
-    margin-left: 40px;
-}
-
-.button_bl6 {
-    margin-top: 25px;
-    margin-left: 40px;
-    background: #FFFFFF;
-    border-radius: 30px;
-    width: 225px;
-    height: 35px;
-}
-
-.text_button {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-
-    color: #C4C4C4;
-}
-.text_b_1{
-    margin-top: 9px;
-}
-
-.logo_block6 {
-    margin-left: 355px;
-    margin-top: -93px;
-}
-.logo_block6_1{
-    margin-left: 18px;
-    margin-top: -93px;
-}
