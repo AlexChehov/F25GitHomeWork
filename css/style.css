@@ -150,10 +150,11 @@ html {
 }
 
 /* БЛОК№5 */
-.goods{
+.goods {
     padding: 80px 0;
 }
-.container_goods{
+
+.container_goods {
     max-width: 1200px;
     margin: auto;
 }
@@ -206,14 +207,136 @@ html {
 
 /* БЛОК№6 */
 
-.block6 {
-    background: red;
+.block6_our-shops {
+    margin: auto;
+    text-align: center;
 }
 
-.block6_1 {
+.block6_1_our-shops {
+    max-width: 1200px;
+    /* background: green; */
+    text-align: center;
+    margin: auto;
+
+}
+
+.block6_left {
     width: 540px;
     height: 212px;
-    background: green;
-    margin-left: 405px;
+    background: #F13C6E;
+
 }
 
+.description6_1 {
+    width: 250px;
+    height: 17px;
+    margin-left: 40px;
+    padding-top: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.description6_2 {
+    width: 231px;
+    height: 40px;
+    margin-left: 40px;
+    padding-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.desription6_3 {
+    width: 225px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 55px;
+    background: white;
+    border-radius: 30px;
+}
+
+.email {
+    width: 96px;
+    height: 17px;
+    margin-left: 25px;
+    padding-top: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.logo6_1 {
+    margin-left: 335px;
+    margin-top: -120px;
+}
+
+.logo6_2 {
+    margin-left: 0px;
+    margin-top: -100px;
+}
+
+.block6_right {
+    width: 540px;
+    height: 212px;
+    background: #F13C6E;
+    margin-left: 570px;
+    margin-top: -210px;
+}
+
+.discription6_1_2 {
+    width: 250px;
+    height: 17px;
+    padding-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.discription6_2_2 {
+    width: 141px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.desription6_3_2_1 {
+    idth: 170px;
+    height: 35px;
+    padding-left: 40px;
+    padding-top: 142px;
+    background: green;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+.map{
+margin-left: -300px;
+margin-top: 35px;
+color: white;
+}
+.logo6_2_1{
+    margin-left: 256px;
+    margin-top: -100px;
+}
