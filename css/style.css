@@ -388,12 +388,14 @@ html {
     margin-left: 1px;
     /* margin-right: 75px; */
 }
+
 .block6 {
     max-width: 1440px;
     margin: auto;
     display: flex;
     margin-top: 250px;
 }
+
 .description3_bl6 {
     font-family: 'Graphik LC TT';
     font-style: normal;
@@ -624,9 +626,11 @@ html {
     margin-top: 75px;
     background: url(../images/section9logo3.png);
 }
-.bl10-1{
+
+.bl10-1 {
     background: #C9E8F2;
 }
+
 .block10 {
     width: 1440px;
     height: 468px;
@@ -669,9 +673,11 @@ html {
     height: 310px;
     background: url(../images/section10.png);
 }
-.block11_1{
+
+.block11_1 {
     background: #DABC98;
 }
+
 .block11 {
     width: 1440px;
     height: 332px;
@@ -799,7 +805,8 @@ html {
     margin-top: 32px;
     margin-bottom: 163px;
 }
-.button_red {
+
+.button_red12 {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
@@ -811,11 +818,13 @@ html {
     height: 60px;
     background: #FF6336;
 }
-.bl13_1{    
+
+.bl13_1_1 {
     background: #FF9C7D;
 }
+
 .block13 {
-    width: 1440px;
+    max-width: 1440px;
     height: 603px;
     /* background: #FF9C7D; */
     padding-top: 119px;
@@ -870,6 +879,7 @@ html {
     margin-left: 650px;
     margin-bottom: 163px;
 }
+
 .bl14_14_1 {
     display: flex;
     max-width: 1440px;
