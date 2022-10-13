@@ -433,12 +433,14 @@ html {
 
 
 
-
+.bl8_1{
+    background: #FFF8E4;
+}
 .block8 {
     max-width: 1440px;
     height: 1033px;
     margin: auto;
-    background: #FFF8E4;
+    /* background: #FFF8E4; */
     margin-top: 150px;
 }
 
