@@ -59,6 +59,7 @@ html {
     margin-left: 57px;
     margin-top: 39px;
     margin-bottom: 36px;
+    margin-left: 80px;
 }
 
 .head_list2 {
@@ -86,63 +87,52 @@ html {
     margin-right: 60px;
 }
 
+/* BUTTON */
+
 .head_bt {
     display: flex;
-    text-align: center;
-    margin-right: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 51px;
-}
-
-.head_bt_white {
-    /* background: white; */
-    width: 120px;
-    height: 45px;
     margin: auto;
-    /* margin-top: 25px;
-    margin-bottom: 25px; */
-    text-align: center;
-    box-sizing: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-
 }
 
-.head_bt_color {
-    background: #FF6336;
-    /* color: white; */
+.button_white {
+    height: 45px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    background: white;
     width: 120px;
     height: 45px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+}
+
+.button_red {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
     text-align: center;
+    color: #FFFFFF;
+    background: #FF6336;
+    width: 120px;
+    height: 45px;
     margin-left: 10px;
-    /* margin-top: 25px;
-    margin-bottom: 25px; */
-    box-sizing: border-box;
-    border: 1px solid(0, 0, 0, 0.5);
-    border-radius: 10px;
-}
-
-.head_bt_c1 {
-    text-align: center;
-    width: 77px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 12px;
-}
-
-.head_bt_c2 {
-    text-align: center;
-    width: 77px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 12px;
 }
 
 
+/* BUTTON */
 
 
 
+.head_line {
+    background: #E5E5E5;
+    max-width: 1440px;
+    height: 1px;
+    margin: auto;
+}
 
 .block_second {
     max-width: 1440px;
@@ -152,12 +142,12 @@ html {
     margin-top: 129px;
 }
 
-.head_line {
+/* .head_line {
     background: #E5E5E5;
     max-width: 1140px;
     height: 1px;
     margin: auto;
-}
+} */
 
 .block_left_1 {
     font-family: 'Graphik LC TT';
@@ -185,32 +175,32 @@ html {
     display: flex;
 }
 
-.head2_bt_white {
-    background: #FF6336;
-    color: white;
-    width: 160px;
-    height: 60px;
-    text-align: center;
+.button_white2 {
+    height: 45px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    background: white;
+    width: 120px;
+    height: 45px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
     margin-left: 10px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    box-sizing: border-box;
-    border: 10px;
-    border-radius: 10px;
 }
 
-.head2_bt_color {
-    background: white;
-    width: 160px;
-    height: 60px;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 10px;
+.button_red2 {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
     text-align: center;
-    box-sizing: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    color: #FFFFFF;
+    background: #FF6336;
+    width: 120px;
+    height: 45px;
 }
 
 .block_left_4 {
@@ -237,7 +227,7 @@ html {
 
 
 .block3 {
-    width: 1440px;
+    /* width: 1440px; */
     height: 445px;
     margin: auto;
     background: #FF9C7D;
@@ -398,7 +388,12 @@ html {
     margin-left: 1px;
     /* margin-right: 75px; */
 }
-
+.block6 {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    margin-top: 250px;
+}
 .description3_bl6 {
     font-family: 'Graphik LC TT';
     font-style: normal;
@@ -629,11 +624,13 @@ html {
     margin-top: 75px;
     background: url(../images/section9logo3.png);
 }
-
+.bl10-1{
+    background: #C9E8F2;
+}
 .block10 {
     width: 1440px;
     height: 468px;
-    background: #C9E8F2;
+    /* background: #C9E8F2; */
     margin: auto;
     padding-top: 63px;
     display: flex;
@@ -672,11 +669,13 @@ html {
     height: 310px;
     background: url(../images/section10.png);
 }
-
+.block11_1{
+    background: #DABC98;
+}
 .block11 {
     width: 1440px;
     height: 332px;
-    background: #DABC98;
+    /* background: #DABC98; */
     display: flex;
     margin: auto;
 
@@ -746,6 +745,7 @@ html {
 
 .block12 {
     max-width: 1440px;
+    margin: auto;
 }
 
 .block12_item1 {
@@ -784,27 +784,42 @@ html {
 }
 
 .block12_item4 {
-    background: #FF6336;
-    font-family: 'Graphik LC TT';
+    /* background: #FF6336; */
+    /* font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 16px; */
     line-height: 60px;
     width: 193px;
     text-align: center;
     color: #FFFFFF;
     border: 1px solid(0, 0, 0, 0.5);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: auto;
     margin-top: 32px;
     margin-bottom: 163px;
 }
-
+.button_red {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 193px;
+    height: 60px;
+    background: #FF6336;
+}
+.bl13_1{    
+    background: #FF9C7D;
+}
 .block13 {
     width: 1440px;
     height: 603px;
-    background: #FF9C7D;
+    /* background: #FF9C7D; */
     padding-top: 119px;
+    margin: auto;
 }
 
 .block13_d1 {
@@ -835,26 +850,30 @@ html {
 
 }
 
-.block13_d3 {
-    background: black;
+
+.button_black {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 60px;
-    width: 193px;
+    line-height: 45px;
     text-align: center;
     color: #FFFFFF;
+    background: black;
+    width: 120px;
+    height: 45px;
     border: 1px solid(0, 0, 0, 0.5);
     border-radius: 10px;
     margin: auto;
+    text-align: center;
     margin-top: 54px;
+    margin-left: 650px;
     margin-bottom: 163px;
 }
-
 .bl14_14_1 {
     display: flex;
     max-width: 1440px;
+    margin: auto;
 }
 
 .block14 {
@@ -969,8 +988,10 @@ html {
 }
 
 .last_one {
-    margin-left: 75px;
+    max-width: 1440px;
+    /* margin-left: 75px; */
     display: flex;
+    margin: auto;
 }
 
 .last_one_logo {
@@ -979,6 +1000,7 @@ html {
     width: 90px;
     margin-top: 52px;
     margin-right: 14px;
+    margin-left: 75px;
 }
 
 .last_description {
