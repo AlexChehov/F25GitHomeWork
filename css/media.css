@@ -1,11 +1,20 @@
 @media screen and (max-width: 768px) {
-    .head_section{
-       width: 100%;
-       max-width: none;
-    }
-    .head_logo{
-        max-width: none;
+    .container {
         width: auto;
         height: auto;
+    }
+    .header_wrap {
+        display: flex;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: auto;
+        height: auto;
+    }
+    .header_wrap {
+        display: flex;
     }
 }
