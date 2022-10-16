@@ -1,5 +1,11 @@
 @media screen and (max-width: 768px) {
-    .item{
-        background: ;
+    .head_section{
+       width: 100%;
+       max-width: none;
+    }
+    .head_logo{
+        max-width: none;
+        width: auto;
+        height: auto;
     }
 }
