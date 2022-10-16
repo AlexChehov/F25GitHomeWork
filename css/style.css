@@ -1,13 +1,19 @@
-*,body,html{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-list-style: none;
-text-decoration: none;
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 
 }
 
-.svg{
-    width: 100%;
-    height: 100vh;
+.svg {
+    width: 1300px;
+    height: 1005px;
+    text-align: center;
+    margin: auto;
+    background: lightskyblue ;
+
 }
