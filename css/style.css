@@ -44,6 +44,7 @@ html {
     padding-top: 8px;
     padding-bottom: 12px;
     margin-left: 51px;
+    margin-right: 200px;
     /* background: lightblue; */
 }
 
@@ -62,15 +63,15 @@ html {
     display: inline;
 }
 
-.button {
-    margin-left: 170px;
+.main-block__buttons {
+    /* margin-left: 170px; */
     margin-top: 25px;
     margin-bottom: 21px;
     margin-right: 51px;
     display: inline-flex;
 }
 
-.button_white {
+.main-block__button_white {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
@@ -81,8 +82,10 @@ html {
     background-color: white;
     width: 120px;
     height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
-.button_red{
+
+.main-block__button_red {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
@@ -144,22 +147,22 @@ html {
     display: flex;
 }
 
-.button_white2 {
-    height: 45px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 0px;
-    background: white;
-    width: 120px;
-    height: 45px;
+.main-block__button_white2 {
     font-family: 'Graphik LC TT';
     font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    background-color: white;
+    width: 120px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     margin-left: 10px;
 }
 
-.button_red2 {
+.main-block__button_red2 {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
@@ -402,9 +405,10 @@ html {
 
 
 
-.bl8_1{
+.bl8_1 {
     background: #FFF8E4;
 }
+
 .block8 {
     max-width: 1440px;
     height: 1033px;
@@ -761,34 +765,22 @@ html {
 }
 
 .block12_item4 {
-    /* background: #FF6336; */
-    /* font-family: 'Graphik LC TT';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px; */
-    line-height: 60px;
-    width: 193px;
-    text-align: center;
-    color: #FFFFFF;
-    border: 1px solid(0, 0, 0, 0.5);
-    /* border-radius: 10px; */
-    margin: auto;
-    margin-top: 32px;
-    margin-bottom: 163px;
-}
-
-.button_red12 {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 45px;
-    text-align: center;
-    color: #FFFFFF;
+    color: white;
+    background-color: #FF6336;
     width: 193px;
     height: 60px;
-    background: #FF6336;
+    margin-left: 10px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 162px;
 }
+
+
 
 .bl13_1_1 {
     background: #FF9C7D;
@@ -830,25 +822,25 @@ html {
 
 }
 
+.main-block__button_black {
+    background: #000000;
+    border-radius: 0px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    margin-left: 620px;
+    margin-top: 64px;
+}
 
 .button_black {
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 45px;
+    font-size: 17px;
+    line-height: 60px;
     text-align: center;
     color: #FFFFFF;
-    background: black;
-    width: 120px;
-    height: 45px;
-    border: 1px solid(0, 0, 0, 0.5);
-    border-radius: 10px;
     margin: auto;
-    text-align: center;
-    margin-top: 54px;
-    margin-left: 650px;
-    margin-bottom: 163px;
 }
 
 .bl14_14_1 {
