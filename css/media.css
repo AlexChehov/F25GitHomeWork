@@ -1,20 +1,41 @@
 @media screen and (max-width: 768px) {
-    .container {
-        width: auto;
-        height: auto;
+    .main-block__buttons {
+        margin-left: 80px;
     }
-    .header_wrap {
-        display: flex;
-        
+    .menu {
+        padding-left: 25px;
+    }
+    .menu a {
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .container {
-        width: auto;
-        height: auto;
-    }
-    .header_wrap {
+
+    .header__container_container {
+        padding-left: 15px;
+        margin: auto;
         display: flex;
     }
+    .head__logo{
+        display: none;
+    }
+    .main-block__buttons {
+        margin-left: 40px;
+        display: list-item;
+    }
+    .menu {
+        padding-left: 15px;
+    }
+    .menu a {
+        font-size: 35px;
+    }
+    .main-block__buttons {
+        margin-top: 25px;
+        margin-bottom: 21px;
+        margin-right: 5px;
+        display: inline-flex;
+        margin-left: 25px;
+    }
+
 }
