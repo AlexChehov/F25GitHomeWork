@@ -2,40 +2,49 @@
     .main-block__buttons {
         margin-left: 80px;
     }
+
+    .head__logo {
+        margin-left: 5px;
+    }
+
     .menu {
         padding-left: 25px;
     }
     .menu a {
         font-size: 25px;
     }
-}
-
-@media screen and (max-width: 480px) {
-
-    .header__container_container {
-        padding-left: 15px;
+    .__container_block {
+        max-width: 768px;
         margin: auto;
-        display: flex;
+        margin-left: 10%;
     }
-    .head__logo{
+    .logo_block {
         display: none;
     }
-    .main-block__buttons {
-        margin-left: 40px;
-        display: list-item;
-    }
-    .menu {
-        padding-left: 15px;
-    }
-    .menu a {
-        font-size: 35px;
-    }
-    .main-block__buttons {
-        margin-top: 25px;
-        margin-bottom: 21px;
-        margin-right: 5px;
-        display: inline-flex;
-        margin-left: 25px;
-    }
+    /* <!-- ----------BLOCK2--------- --> */
 
+    .dscription_color_block{
+        padding-top: 58px;
+    }
+    .description_block_color_1 {
+        width: 720px;
+        height: 120px;
+        font-family: 'Graphik LC TT';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        margin-top: 58px;
+        margin-left: 55px;
+    }
+    /* <!-- ----------BLOCK3--------- --> */
+    .block3_logo{
+        display: none;
+    }
+    .description_block3 {
+        margin-top: 0px;
+    }
 }
+
+
