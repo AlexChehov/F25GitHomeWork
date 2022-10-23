@@ -752,11 +752,16 @@ html {
     line-height: 15px;
     color: #000000;
     margin-top: 21px;
+
 }
 
-.container_block13_block_list a {
+/* .container_block13_block_list a {
     margin-bottom: 15px;
-}
+} */
+
+.container_block13_block_list li, .container_block13_block_list ul {padding:10;margin:10;}
+
+    /* <!-- ----------BLOCK14--------- --> */
 .container_block14{
     max-width: 1440px;
     margin: auto;
