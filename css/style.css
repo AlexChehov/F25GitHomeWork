@@ -66,10 +66,11 @@ html {
 @keyframes container__anime {
     50% {
         transform: translate(320%);
-        
+
     }
-    20%{
-        transform: scale(-1,1);
+
+    20% {
+        transform: scale(-1, 1);
     }
 }
 
@@ -108,3 +109,19 @@ html {
         transform: rotate(0deg);
     }
 }
+
+.container_plane {
+    width: 200px;
+    height: 100px;
+    margin-top: 40px;
+    animation: container_pliane 2s linear 0s infinite;
+    margin-left: -400px;
+}
+
+@keyframes container_pliane {
+    90% {
+        transform: translate(520%) rotate(-50deg) scale(-1,2);
+    }
+
+}
+
