@@ -1,7 +1,110 @@
-*,body,html{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-list-style: none;
-text-decoration: none;
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container__anime {
+    display: flex;
+    margin: auto;
+}
+
+.container__anime_backgraund {
+    width: 1400px;
+    display: flex;
+    margin: auto;
+    background: url(../img/fire-burning-buildings-city-street-orange-flame-cityscape-burning-city-ruins-fire_166005-817.jpg);
+}
+
+.container__anime_car {
+    margin-top: 440px;
+    padding-top: -10px;
+    margin-left: 1px;
+    width: 300px;
+    height: 250px;
+    animation: container__anime 2s infinite;
+    /* transform: scale(-1,1); */
+}
+
+.container_header {
+    width: 25px;
+    margin-left: 65px;
+    border-radius: 50%;
+    display: inline-flex;
+    padding-top: 10px;
+    animation: container_header 2s linear 0s infinite;
+}
+
+@keyframes container_header {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.container_header1 {
+    width: 20px;
+    height: 10px;
+    background: blue;
+    border-radius: 0% 0% 50% 50%;
+}
+
+.container_header2 {
+    width: 20px;
+    height: 10px;
+    background: red;
+    border-radius: 50% 50% 0% 0%;
+}
+
+@keyframes container__anime {
+    50% {
+        transform: translate(320%);
+        
+    }
+    20%{
+        transform: scale(-1,1);
+    }
+}
+
+
+.container__anime_car_wheels {
+    display: inline-flex;
+    margin-top: -30px;
+}
+
+.container__anime_car_wheels_1 {
+    margin-right: 65px;
+    animation: container__anime_car_wheels_1 1s linear 0s infinite;
+}
+
+@keyframes container__anime_car_wheels_1 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.container__anime_car_wheels_2 {
+    margin-left: 60px;
+    animation: container__anime_car_wheels_2 1s linear 0s infinite;
+}
+
+@keyframes container__anime_car_wheels_2 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
 }
