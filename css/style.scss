@@ -16,15 +16,13 @@ html {
 
 }
 
-.container {
+.container{
     max-width: 1440px;
-    padding: 145px 50px;
+    padding: 0px 10px;
     margin: auto;
 }
 
 .header_description {
-
-    // display: flex
     .header_logo_cup {
         width: 135px;
         height: 50px;
@@ -55,11 +53,13 @@ html {
 .header_menu_logo {
     margin-top: 18px;
     margin-left: 569px;
-.header_line{
-    display: inline-flex;
-    margin: auto;
-}
-    .menu{
+
+    .header_line {
+        display: inline-flex;
+        margin: auto;
+    }
+
+    .menu {
         &-burger {
             display: none;
             transition: 1s ease-in-out;
@@ -82,7 +82,7 @@ html {
             margin: 0 29px;
             opacity: 0.6;
             margin-top: 15px;
-            
+
         }
 
         &-item.active {
@@ -109,92 +109,112 @@ html {
             transition: 1s ease-in-out;
         }
     }
-    .search_cart{
+    .search_cart {
         display: inline-flex;
-        .search{
+
+        .search {
             margin-left: 60px;
             margin-right: 19px;
         }
-        .cart{
+
+        .cart {
             margin-left: 19px;
         }
     }
-
     .header_logo_cup_biger {
         max-width: 570px;
-        height: 711px;
     }
 }
 
 
+// ----------about-section----------
+.about-section {
+    background: $light-white;
+}
 
+.about-section_header {
+    margin-top: 60px;
+    display: inline-flex;
+}
 
+.about-seaction_header_title {
+    .about-seac_header_title_title {
+        @include font(43px, $dark-color, 445, $open-sans);
+    }
 
+    .about-seac_header_title_sub_title {
+        margin-top: 20px;
+        opacity: 0.7;
+        @include font(18px, $dark-color, 506, $open-sans);
+    }
+}
 
+.block_bt_right {
+    margin-left: 520px;
+    display: inline-flex;
+}
 
+.about-section_coffe_line {
+    display: inline-flex;
+    margin-top: 60px;
+    text-align: center;
+}
 
+.about-section_coffe_beans {
+    margin-right: 12px;
+}
 
+.about-section_coffe_logo {
+    width: 300px;
+    height: 265px;
+}
 
+.about-section_coffe_price {
+    margin-top: 35px;
+}
 
+.about-section_coffe_title {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    @include font(32px, $dark-color, 600, $josefin-sans);
+}
 
+.about-section_coffe_sub_title {
+    margin-top: 15px;
+}
 
+.about-section_coffe_bt {
+    margin-top: 30px;
+    display: inline-flex;
+}
 
+.about-section_coffe_bt1 {
+    width: 114px;
+    height: 57px;
+}
 
+.about-section_coffe_bt2 {
+    a {
+        margin: auto;
+        @include font(18px, $white, 700, $open-sans);
+        padding: 17px 30px;
+        border-radius: 5px;
+        background: $primary-color;
+        display: inline-block;
+        margin-left: 20px;
+    }
 
+}
+// -----------gallery-section---------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .menu{
-//     &-burger{
-//         display: none;
-//         transition: 1s ease-in-out;
-//         z-index: 100;
-//         div{
-//             width: 30px;
-//             height: 2px;
-//             background: $primary-color;
-//             transition: 1s ease-in-out;
-//             &:nth-child(2){
-//                 margin: 10px 0;
-//             }
-//         }
-//     }
-//     &-item{
-//         display: inline-block;
-//         margin: 0 17px;
-//     }
-//     &-item.active{
-//         position: relative;
-//         a{
-//             color: $white;
-//         }
-//         &::before{
-//             @include pseudo(100%,3px);
-//             background: $primary-color;
-//             bottom: -10px;
-//             left: 0;
-//         }
-//     }
-//     &-link{
-//         @include font(15px,$cd-color,400,$arial)
-//     }
-//     &-list{
-//         transition: 1s ease-in-out;
-//     }
-// }
+.gallery-section{
+    background:$light-white;
+}
+.gallert_line{
+   margin-top: 140px;
+}
+.gallert_title{
+    width: 235px;
+    height: 56px;
+    @include font(43,$dark-color,600,$josefin-sans)
+}

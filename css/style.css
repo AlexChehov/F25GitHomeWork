@@ -14,7 +14,7 @@ html {
 
 .container {
   max-width: 1440px;
-  padding: 145px 50px;
+  padding: 145px 10px;
   margin: auto;
 }
 
@@ -112,5 +112,74 @@ html {
 }
 .header_menu_logo .header_logo_cup_biger {
   max-width: 570px;
-  height: 711px;
+}
+
+.about-section {
+  background: #E5E5E5;
+}
+
+.about-section_header {
+  margin-top: 60px;
+  display: inline-flex;
+}
+
+.about-seaction_header_title .about-seac_header_title_title {
+  font-size: 43px;
+  color: #292929;
+  font-weight: 445;
+  font-family: "open sans", sans-serif;
+}
+.about-seaction_header_title .about-seac_header_title_sub_title {
+  margin-top: 20px;
+  opacity: 0.7;
+  font-size: 18px;
+  color: #292929;
+  font-weight: 506;
+  font-family: "open sans", sans-serif;
+}
+
+.block_bt_right {
+  margin-left: 520px;
+  display: inline-flex;
+}
+
+.about-section_coffe_line {
+  display: inline-flex;
+  margin-top: 60px;
+}
+
+.about-section_coffe_beans {
+  margin-right: 82px;
+}
+
+.about-section_coffe_logo {
+  width: 300px;
+  height: 265px;
+}
+
+.about-section_coffe_price {
+  margin-top: 35px;
+}
+
+.about-section_coffe_bt {
+  margin-top: 30px;
+  display: inline-flex;
+}
+
+.about-section_coffe_bt1 {
+  width: 114px;
+  height: 57px;
+}
+
+.about-section_coffe_bt2 a {
+  margin: auto;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  font-family: "open sans", sans-serif;
+  padding: 17px 30px;
+  border-radius: 5px;
+  background: #FF4B32;
+  display: inline-block;
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */
