@@ -128,6 +128,9 @@ html {
 
 
 // ----------about-section----------
+
+
+
 .about-section {
     background: $light-white;
 }
@@ -205,10 +208,13 @@ html {
     }
 
 }
-// -----------gallery-section---------
+
+
+// ----------gallery-section--------
 
 .gallery-section{
     background:$light-white;
+    max-width: 1440px;
 }
 .gallert_line{
    margin-top: 140px;
@@ -216,5 +222,11 @@ html {
 .gallert_title{
     width: 235px;
     height: 56px;
-    @include font(43,$dark-color,600,$josefin-sans)
+    margin-left: 602px;
+    @include font(43px,$dark-color,600,$open-sans);
+}
+.gallert_subtitle{
+    opacity: 0.7;
+    @include font(18px,$dark-color,400,$open-sans);
+    
 }
