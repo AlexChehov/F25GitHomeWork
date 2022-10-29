@@ -82,7 +82,7 @@ html {
 
 .container__anime_car_wheels_1 {
     margin-right: 65px;
-    animation: container__anime_car_wheels_1 1s linear 0s infinite;
+    animation: container__anime_car_wheels_1 2s linear 0s infinite;
 }
 
 @keyframes container__anime_car_wheels_1 {
