@@ -223,7 +223,7 @@ html {
     width: 235px;
     height: 56px;
     margin-left: 602px;
-    @include font(43px,$dark-color,600,$open-sans);
+    @include font(43px,$dark-color,600,$josefin-sans);
 }
 .gallert_subtitle{
     opacity: 0.7;
