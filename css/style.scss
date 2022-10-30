@@ -11,7 +11,7 @@ html {
     text-decoration: none;
 }
 
-.header-section {
+.header-section{
     background: url(../images/header_backgraund1.png);
     padding-top: 60px;
 }
@@ -253,4 +253,11 @@ html {
     .gallery_futer_description{
         margin: 15px 0px;
     }
+}
+.follow_us{
+    background: url(../images/header_backgraund1.png);
+    padding-top: 140px;
+}
+.follow_us_description{
+    text-align: center;
 }
