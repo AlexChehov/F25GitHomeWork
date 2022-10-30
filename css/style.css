@@ -10,11 +10,12 @@ html {
 
 .header-section {
   background: url(../images/header_backgraund1.png);
+  padding-top: 60px;
 }
 
 .container {
   max-width: 1440px;
-  padding: 145px 10px;
+  padding: 1px 145px;
   margin: auto;
 }
 
@@ -22,38 +23,11 @@ html {
   width: 135px;
   height: 50px;
   padding-bottom: 145px;
-}
-.header_description .header_description_title {
-  font-size: 69px;
-  color: white;
-  font-weight: 524;
-  font-family: josefin sans;
-}
-.header_description .header_description_subtitle {
-  margin-top: 26px;
-  font-size: 32px;
-  color: white;
-  font-weight: 506;
-  font-family: "open sans", sans-serif;
-}
-.header_description .header_description_button a {
-  margin-top: 61px;
-  font-size: 16px;
-  color: white;
-  font-weight: 148;
-  font-family: "open sans", sans-serif;
-  padding: 16px 35px;
-  border-radius: 5px;
-  background: #FF4B32;
-  display: inline-block;
+  margin-right: 251px;
 }
 
-.header_menu_logo {
-  margin-top: 18px;
-  margin-left: 569px;
-}
 .header_menu_logo .header_line {
-  display: inline-flex;
+  display: flex;
   margin: auto;
 }
 .header_menu_logo .menu-burger {
@@ -110,8 +84,42 @@ html {
 .header_menu_logo .search_cart .cart {
   margin-left: 19px;
 }
-.header_menu_logo .header_logo_cup_biger {
-  max-width: 570px;
+
+.description_header {
+  display: flex;
+}
+
+.header_description_title {
+  font-size: 69px;
+  color: white;
+  font-weight: 524;
+  font-family: josefin sans;
+}
+
+.header_description_subtitle {
+  margin-top: 26px;
+  font-size: 32px;
+  color: white;
+  font-weight: 506;
+  font-family: "open sans", sans-serif;
+}
+
+.header_description_button a {
+  margin-top: 61px;
+  font-size: 16px;
+  color: white;
+  font-weight: 148;
+  font-family: "open sans", sans-serif;
+  padding: 16px 35px;
+  border-radius: 5px;
+  background: #FF4B32;
+  display: inline-block;
+}
+
+.header_logo_cup_biger {
+  max-width: 870px;
+  height: 511px;
+  display: flex;
 }
 
 .about-section {
@@ -120,7 +128,7 @@ html {
 
 .about-section_header {
   margin-top: 60px;
-  display: inline-flex;
+  display: flex;
 }
 
 .about-seaction_header_title .about-seac_header_title_title {
@@ -149,7 +157,7 @@ html {
 }
 
 .about-section_coffe_beans {
-  margin-right: 82px;
+  margin-right: 92px;
 }
 
 .about-section_coffe_logo {
@@ -159,6 +167,19 @@ html {
 
 .about-section_coffe_price {
   margin-top: 35px;
+}
+
+.about-section_coffe_title {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  font-size: 32px;
+  color: #292929;
+  font-weight: 600;
+  font-family: "josefin sans", sans-serif;
+}
+
+.about-section_coffe_sub_title {
+  margin-top: 15px;
 }
 
 .about-section_coffe_bt {
@@ -182,4 +203,47 @@ html {
   background: #FF4B32;
   display: inline-block;
   margin-left: 20px;
+}
+
+.gallery-section {
+  background: #E5E5E5;
+  max-width: 1440px;
+}
+
+.gallert_line {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.gallert_title {
+  font-size: 43px;
+  color: #292929;
+  font-weight: 600;
+  font-family: "josefin sans", sans-serif;
+}
+
+.gallert_subtitle {
+  margin-top: 20px;
+  opacity: 0.7;
+  font-size: 18px;
+  color: #292929;
+  font-weight: 400;
+  font-family: "open sans", sans-serif;
+}
+
+.gallery_logo_line {
+  margin-top: 60px;
+  display: inline-flex;
+}
+
+.gallery_logo {
+  margin: 30px 30px;
+}
+
+.gallery_futer {
+  margin: 60px 0px;
+  text-align: center;
+}
+.gallery_futer .gallery_futer_description {
+  margin: 15px 0px;
 }/*# sourceMappingURL=style.css.map */
