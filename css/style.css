@@ -152,12 +152,13 @@ html {
 }
 
 .about-section_coffe_line {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
 
 .about-section_coffe_beans {
-  margin-right: 92px;
+  margin-right: 72px;
 }
 
 .about-section_coffe_logo {
@@ -326,7 +327,8 @@ html {
 .update_news_beans_line {
   margin-top: 60px;
   margin-bottom: 142px;
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .update_news_beans2 {
