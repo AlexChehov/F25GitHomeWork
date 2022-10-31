@@ -9,7 +9,7 @@ html {
 }
 
 .header-section {
-  background: url(../images/header_backgraund1.png);
+  background: #000 url(../images/header_logo_biger.png) top right no-repeat;
   padding-top: 60px;
 }
 
@@ -62,7 +62,7 @@ html {
   width: 100%;
   height: 3px;
   background: #FF4B32;
-  bottom: -30;
+  bottom: -30px;
   left: 0;
 }
 .header_menu_logo .menu-link {
@@ -232,11 +232,12 @@ html {
 
 .gallery_logo_line {
   margin-top: 60px;
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .gallery_logo {
-  margin: 30px 30px;
+  margin: 30px 10px;
 }
 
 .gallery_futer {

@@ -12,8 +12,10 @@ html {
 }
 
 .header-section{
-    background: url(../images/header_backgraund1.png);
+    // background: url(../images/header_backgraund1.png);
+    background:  #000 url(../images/header_logo_biger.png) top right no-repeat ;
     padding-top: 60px;
+
 }
 
 .container {
@@ -77,7 +79,7 @@ html {
             &::before {
                 @include pseudo(100%, 3px);
                 background: $primary-color;
-                bottom: -30;
+                bottom: -30px;
                 left: 0;
 
             }
@@ -131,7 +133,8 @@ html {
 .header_logo_cup_biger {
     max-width: 870px;
     height: 511px;
-    display: flex;;
+    display: flex;
+    
 }
 
 
@@ -227,6 +230,7 @@ html {
 .gallert_line {
     margin-top: 140px;
     text-align: center;
+
 }
 
 .gallert_title {
@@ -241,10 +245,12 @@ html {
 }
 .gallery_logo_line{
     margin-top: 60px;
-    display: inline-flex;
+    // display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 .gallery_logo{
-    margin: 30px 30px;
+    margin: 30px 10px;
 }
 .gallery_futer{
     margin: 60px 0px;
