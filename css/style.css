@@ -10,25 +10,26 @@ html {
 
 .header-section {
   background: #000 url(../images/header_logo_biger.png) top right no-repeat;
-  padding-top: 60px;
 }
 
 .container {
   max-width: 1440px;
-  padding: 1px 145px;
+  padding: 60px 145px;
   margin: auto;
 }
 
 .header_description .header_logo_cup {
   width: 135px;
   height: 50px;
-  padding-bottom: 145px;
 }
 
 .header_menu_logo .header_line {
   justify-content: space-between;
   display: flex;
-  margin: auto;
+}
+.header_menu_logo .menu {
+  display: flex;
+  align-items: center;
 }
 .header_menu_logo .menu-burger {
   display: none;
@@ -89,6 +90,7 @@ html {
 }
 
 .header_description_title {
+  margin-top: 110px;
   font-size: 69px;
   color: white;
   font-weight: 524;
@@ -235,9 +237,13 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
-
-.gallery_logo {
+.gallery_logo_line .gallery_logo {
   margin: 30px 10px;
+}
+.gallery_logo_line .gallery_logo5 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -70px;
 }
 
 .gallery_futer {
@@ -252,7 +258,7 @@ html {
 }
 
 .follow_us {
-  background: #000 url(../images/follow_us_fon_nuts.png) no-repeat;
+  background: url(../images/follow_us_fon_nuts.png) no-repeat, url(../images/follow_us_fon_nuts_right.png) right no-repeat, #000;
   margin: auto;
 }
 
@@ -261,9 +267,9 @@ html {
 }
 
 .follow_us_description_title {
-  margin-top: 100px;
+  margin-top: 40px;
   font-size: 24px;
-  color: white;
+  color: red;
   font-weight: 600;
   font-family: "open sans", sans-serif;
 }
@@ -291,7 +297,6 @@ html {
 
 .follow_us_block_items {
   display: inline-flex;
-  margin-bottom: 60px;
 }
 
 .item_circle {
@@ -301,7 +306,9 @@ html {
   width: 50px;
   height: 50px;
   margin-right: 40px;
-  padding: 4% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .update_news {
@@ -332,11 +339,14 @@ html {
   margin-bottom: 142px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
 }
 
-.update_news_beans2 {
-  margin-left: 30px;
-  margin-right: 30px;
+.update_news_beans {
+  background: white;
+  box-shadow: 40px 15px 136px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .coffe_beans_title {
