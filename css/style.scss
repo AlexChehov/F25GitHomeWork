@@ -396,12 +396,15 @@ html {
 }
 
 .futer_line {
-    display: inline-flex;
+    // display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
-.futer_block2 {
+.futer_block {
     margin-left: 44px;
-    margin-right: 109px;
+    // margin-right: 109px;
+    // align-items: center;
 
     .futer_block2_1 {
         @include font(24px, $white, 400, $open-sans);
@@ -409,7 +412,7 @@ html {
 
     .futer_block2_2 {
         margin-top: 20px;
-        width: 164px;
+        // width: 164px;
         @include font(18px, $white, 400, $open-sans);
     }
 
@@ -434,7 +437,7 @@ html {
     text-align: center;
 
     .futer_description {
-        margin-bottom: 50px;
+        // margin-bottom: 50px;
         @include font(16px, $white, 400, $open-sans);
     }
 }
