@@ -14,7 +14,8 @@ $('.about-section_coffe_line').slick({
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 2,
+                infinite: true,
+                slidesToShow: 1,
                 slidesToScroll: 1,
             }
         },
@@ -22,7 +23,8 @@ $('.about-section_coffe_line').slick({
             breakpoint: 640,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                adaptiveHeight:true
             }
         }
     ]
