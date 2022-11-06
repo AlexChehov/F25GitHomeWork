@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .header_logo_cup {
+        display: none;
+    }
+
+    .about-section_header {
+        margin-top: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* .block_bt_right {
+        margin-left: 220px;
+        display: flex;
+    } */
+
+    .about-section_coffe_line {
+        justify-content: center;
+        margin: 30px 150px;
+        /* padding: 30px 30px; */
+    }
+
+    .about-section_coffe_beans {
+        margin-bottom: 30px;
+    }
+
+    .gallery_logo_line {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .gallery_logo {
+        margin: 10px 10px;
+    }
+
+    .gallery_logo5 {
+        margin-top: -10px;
+    }
+
+    .update_news_beans_line {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .update_news_beans {
+        margin: 20px 10px;
+    }
+
+    .futer_line {
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .futer_block {
+        margin: 20px 80px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .about-section_coffe_line {
+        justify-content: center;
+        margin: 20px 80px;
+        /* padding: 30px 30px; */
+    }
+
+    .about-section_coffe_beans {
+        margin-bottom: 1px;
+    }
+
+    .gallery_logo5 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+
+}
