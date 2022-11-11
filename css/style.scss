@@ -182,8 +182,8 @@ html {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
-    padding: 0px 60px;
-    // justify-content: center;
+    // padding: 0px 50px;
+    justify-content: center;
     position: relative;
 
     .slick-arrow {
@@ -194,17 +194,23 @@ html {
         width: 46px;
         height: 46px;
         border-radius: 50px;
-        justify-content: center;
-        margin: auto;
+        
+        // justify-content: center;
+        // margin: auto;
 
     }
 
     .slick-prev {
-        left: 0;
+        // left: 0;
+        top: -137px;
+        right: 56px;
+      
         background: url(../images/bt_left.png) 50% no-repeat #FF4B32;
     }
 
     .slick-next {
+        top: 0;
+        top: -137px;
         right: 0;
         background: url(../images/bt_fights.png) 50% no-repeat #FF4B32;
     }
@@ -218,7 +224,7 @@ html {
 
 .about-section_coffe_logo {
     width: 368px;
-    height: 255px;
+    // height: 255px;
 }
 
 .about-section_coffe_price {
