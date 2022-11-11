@@ -92,6 +92,7 @@ html {
             }
         }
 
+
         .search_cart {
             display: inline-flex;
 
@@ -106,369 +107,370 @@ html {
             }
         }
     }
+}
 
-    .description_header {
-        display: flex
+.description_header {
+    display: flex
+}
+
+.header_description_title {
+    margin-top: 110px;
+    @include font(69px, $white, 524, josefin sans);
+}
+
+.header_description_subtitle {
+    margin-top: 26px;
+    @include font(32px, $white, 506, $open-sans)
+}
+
+.header_description_button {
+    a {
+        margin-top: 61px;
+        @include font(16px, $white, 148, $open-sans);
+        padding: 16px 35px;
+        border-radius: 5px;
+        background: $primary-color;
+        display: inline-block;
+    }
+}
+
+.header_logo_cup_biger {
+    max-width: 870px;
+    height: 511px;
+    display: flex;
+
+}
+
+
+
+// ----------about-section----------
+
+
+
+.about-section {
+    background: $light-white;
+}
+
+.about-section_header {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-seaction_header_title {
+    .about-seac_header_title_title {
+        @include font(43px, $dark-color, 445, $open-sans);
     }
 
-    .header_description_title {
-        margin-top: 110px;
-        @include font(69px, $white, 524, josefin sans);
+    .about-seac_header_title_sub_title {
+        margin-top: 20px;
+        opacity: 0.7;
+        @include font(18px, $dark-color, 506, $open-sans);
     }
+}
 
-    .header_description_subtitle {
-        margin-top: 26px;
-        @include font(32px, $white, 506, $open-sans)
-    }
-
-    .header_description_button {
-        a {
-            margin-top: 61px;
-            @include font(16px, $white, 148, $open-sans);
-            padding: 16px 35px;
-            border-radius: 5px;
-            background: $primary-color;
-            display: inline-block;
-        }
-    }
-
-    .header_logo_cup_biger {
-        max-width: 870px;
-        height: 511px;
-        display: flex;
-
-    }
-
-
-
-    // ----------about-section----------
-
-
-
-    .about-section {
-        background: $light-white;
-    }
-
-    .about-section_header {
-        margin-top: 60px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .about-seaction_header_title {
-        .about-seac_header_title_title {
-            @include font(43px, $dark-color, 445, $open-sans);
-        }
-
-        .about-seac_header_title_sub_title {
-            margin-top: 20px;
-            opacity: 0.7;
-            @include font(18px, $dark-color, 506, $open-sans);
-        }
-    }
-
-    .block_bt_right {
-        width: 112px;
-        justify-content: space-between;
-        display: inline-flex;
-    }
+.block_bt_right {
+    width: 112px;
+    justify-content: space-between;
+    display: inline-flex;
+}
 
 
 
 
-    .about-section_coffe_line {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 60px;
-        padding: 0px 60px;
-        // justify-content: center;
-        position: relative;
+.about-section_coffe_line {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding: 0px 60px;
+    // justify-content: center;
+    position: relative;
 
-        .slick-arrow {
-            position: absolute;
-            top: 50%;
-            z-index: 10;
-            font-size: 0;
-            width: 46px;
-            height: 46px;
-            border-radius: 50px;
-            justify-content: center;
-            margin: auto;
-
-        }
-
-        .slick-prev {
-            left: 0;
-            background: url(../images/bt_left.png) 50% no-repeat #FF4B32;
-        }
-
-        .slick-next {
-            right: 0;
-            background: url(../images/bt_fights.png) 50% no-repeat #FF4B32;
-        }
-    }
-
-    .about-section_coffe_beans {
-        width: 370px;
-        margin: 0px 0px;
-        padding: 0px 0px;
-    }
-
-    .about-section_coffe_logo {
-        width: 368px;
-        height: 255px;
-    }
-
-    .about-section_coffe_price {
-        margin-top: 35px;
-    }
-
-    .about-section_coffe_title {
-        margin-top: 10px;
-        padding-bottom: 15px;
-        @include font(32px, $dark-color, 600, $josefin-sans);
-    }
-
-    .about-section_coffe_sub_title {
-        margin-top: 15px;
-    }
-
-    .about-section_coffe_bt {
-        margin-top: 30px;
-        display: inline-flex;
-    }
-
-    .about-section_coffe_bt1 {
-        width: 114px;
-        height: 57px;
-    }
-
-    .about-section_coffe_bt2 {
-        a {
-            margin: auto;
-            @include font(18px, $white, 700, $open-sans);
-            padding: 17px 30px;
-            border-radius: 5px;
-            background: $primary-color;
-            display: inline-block;
-            margin-left: 20px;
-        }
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;
+        width: 46px;
+        height: 46px;
+        border-radius: 50px;
+        justify-content: center;
+        margin: auto;
 
     }
 
-
-    // ----------gallery-section--------
-
-    .gallery-section {
-        background: $light-white;
+    .slick-prev {
+        left: 0;
+        background: url(../images/bt_left.png) 50% no-repeat #FF4B32;
     }
 
-    .gallert_line {
+    .slick-next {
+        right: 0;
+        background: url(../images/bt_fights.png) 50% no-repeat #FF4B32;
+    }
+}
+
+.about-section_coffe_beans {
+    width: 370px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.about-section_coffe_logo {
+    width: 368px;
+    height: 255px;
+}
+
+.about-section_coffe_price {
+    margin-top: 35px;
+}
+
+.about-section_coffe_title {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    @include font(32px, $dark-color, 600, $josefin-sans);
+}
+
+.about-section_coffe_sub_title {
+    margin-top: 15px;
+}
+
+.about-section_coffe_bt {
+    margin-top: 30px;
+    display: inline-flex;
+}
+
+.about-section_coffe_bt1 {
+    width: 114px;
+    height: 57px;
+}
+
+.about-section_coffe_bt2 {
+    a {
+        margin: auto;
+        @include font(18px, $white, 700, $open-sans);
+        padding: 17px 30px;
+        border-radius: 5px;
+        background: $primary-color;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+}
+
+
+// ----------gallery-section--------
+
+.gallery-section {
+    background: $light-white;
+}
+
+.gallert_line {
+    margin-top: 140px;
+    text-align: center;
+
+}
+
+.gallert_title {
+    @include font(43px, $dark-color, 600, $josefin-sans);
+}
+
+.gallert_subtitle {
+    margin-top: 20px;
+    opacity: 0.7;
+    @include font(18px, $dark-color, 400, $open-sans);
+
+}
+
+.gallery_logo_line {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .gallery_logo {
+        margin: 30px 10px;
+    }
+
+    .gallery_logo5 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -70px;
+    }
+
+}
+
+
+.gallery_futer {
+    margin: 60px 0px;
+    text-align: center;
+
+    .gallery_futer_description {
+        margin: 15px 0px;
+    }
+
+    .gallery_futer_line2 {
+        margin-bottom: 140px;
+    }
+}
+
+// ----------fillow_us----------
+
+
+.follow_us {
+    background: url(../images/follow_us_fon_nuts.png) no-repeat, url(../images/follow_us_fon_nuts_right.png) right no-repeat, #000;
+    margin: auto;
+}
+
+.follow_us_description {
+    text-align: center;
+}
+
+.follow_us_description_title {
+    margin-top: 40px;
+
+    @include font(24px, red, 600, $open-sans)
+}
+
+.follow_us_line {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.follow_us_description_sub_title {
+    @include font(43px, $white, 600, $josefin-sans)
+}
+
+.follow_us_deacription_number {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    // .h{color: $white;}
+
+}
+
+.follow_us_deacription_email {
+    margin-bottom: 91px;
+}
+
+.follow_us_block_items {
+    display: inline-flex;
+}
+
+.item_circle {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    // padding: 4% 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// ---------update_news--------
+
+.update_news {
+    background: $light-white;
+}
+
+.update_news_title {
+    text-align: center;
+
+    .update_news_title_title {
         margin-top: 140px;
-        text-align: center;
-
-    }
-
-    .gallert_title {
         @include font(43px, $dark-color, 600, $josefin-sans);
     }
 
-    .gallert_subtitle {
+    .update_news_title_sub_title {
         margin-top: 20px;
         opacity: 0.7;
         @include font(18px, $dark-color, 400, $open-sans);
-
     }
+}
 
-    .gallery_logo_line {
-        margin-top: 60px;
-        display: flex;
-        flex-wrap: wrap;
+.update_news_beans_line {
+    margin-top: 60px;
+    margin-bottom: 142px;
+    // display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
 
-        .gallery_logo {
-            margin: 30px 10px;
-        }
+}
 
-        .gallery_logo5 {
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: -70px;
-        }
+.update_news_beans {
+    background: $white;
+    box-shadow: 40px 15px 136px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
 
-    }
+.coffe_beans_title {
+    margin: 30px 30px;
+    @include font(32px, $dark-color, 600, $josefin-sans);
+}
 
+.coffe_beans_sub_title {
+    margin: 30px 30px;
+    @include font(16px, $dark-color, 400, $open-sans);
+}
 
-    .gallery_futer {
-        margin: 60px 0px;
-        text-align: center;
+.coffe_beans_futer {
+    margin: 20px 30px;
+}
 
-        .gallery_futer_description {
-            margin: 15px 0px;
-        }
+// ---------futer-------
+.futer {
+    background: url(../images/header_backgraund1.png);
+    padding-top: 140px;
+}
 
-        .gallery_futer_line2 {
-            margin-bottom: 140px;
-        }
-    }
+.futer_description1 {
+    margin-top: 30px;
+    @include font(18px, $white, 400, $open-sans);
+}
 
-    // ----------fillow_us----------
+.futer_line {
+    display: flex;
+    justify-content: space-between;
+}
 
-
-    .follow_us {
-        background: url(../images/follow_us_fon_nuts.png) no-repeat, url(../images/follow_us_fon_nuts_right.png) right no-repeat, #000;
-        margin: auto;
-    }
-
-    .follow_us_description {
-        text-align: center;
-    }
-
-    .follow_us_description_title {
-        margin-top: 40px;
-
-        @include font(24px, red, 600, $open-sans)
-    }
-
-    .follow_us_line {
-        margin-top: 25px;
-        margin-bottom: 40px;
-    }
-
-    .follow_us_description_sub_title {
-        @include font(43px, $white, 600, $josefin-sans)
-    }
-
-    .follow_us_deacription_number {
-        margin-top: 60px;
-        margin-bottom: 25px;
-        // .h{color: $white;}
-        
-    }
-
-    .follow_us_deacription_email {
-        margin-bottom: 91px;
-    }
-
-    .follow_us_block_items {
-        display: inline-flex;
-    }
-
-    .item_circle {
-        box-sizing: border-box;
-        border: 1px solid #FFFFFF;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin-right: 40px;
-        // padding: 4% 4%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    // ---------update_news--------
-
-    .update_news {
-        background: $light-white;
-    }
-
-    .update_news_title {
-        text-align: center;
-
-        .update_news_title_title {
-            margin-top: 140px;
-            @include font(43px, $dark-color, 600, $josefin-sans);
-        }
-
-        .update_news_title_sub_title {
-            margin-top: 20px;
-            opacity: 0.7;
-            @include font(18px, $dark-color, 400, $open-sans);
-        }
-    }
-
-    .update_news_beans_line {
-        margin-top: 60px;
-        margin-bottom: 142px;
-        // display: inline-flex;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-content: space-between;
-
-    }
-
-    .update_news_beans {
-        background: $white;
-        box-shadow: 40px 15px 136px rgba(0, 0, 0, 0.2);
-        border-radius: 20px;
-    }
-
-    .coffe_beans_title {
-        margin: 30px 30px;
-        @include font(32px, $dark-color, 600, $josefin-sans);
-    }
-
-    .coffe_beans_sub_title {
-        margin: 30px 30px;
-        @include font(16px, $dark-color, 400, $open-sans);
-    }
-
-    .coffe_beans_futer {
-        margin: 20px 30px;
-    }
-
-    // ---------futer-------
-    .futer {
-        background: url(../images/header_backgraund1.png);
-        padding-top: 140px;
-    }
-
-    .futer_description1 {
-        margin-top: 30px;
-        @include font(18px, $white, 400, $open-sans);
-    }
-
-    .futer_line {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .futer_block {
-        margin-left: 44px;
+.futer_block {
+    margin-left: 44px;
 
 
-        .futer_block2_1 {
-            @include font(24px, $white, 400, $open-sans);
-        }
-
-        .futer_block2_2 {
-            margin-top: 20px;
-            @include font(18px, $white, 400, $open-sans);
-        }
-
-        .futer_block2_3 {
-            margin-top: 20px;
-            @include font(18px, $white, 400, $open-sans);
-        }
-
-        .futer_block2_4 {
-            margin-top: 20px;
-            @include font(18px, $white, 400, $open-sans);
-        }
-    }
-
-    .futer_block3_1 {
-        margin-bottom: 46px;
+    .futer_block2_1 {
         @include font(24px, $white, 400, $open-sans);
     }
 
-    .futer_futer {
-        margin-top: 25px;
-        text-align: center;
-
-        .futer_description {
-            margin-bottom: 50px;
-            @include font(16px, $white, 400, $open-sans);
-        }
+    .futer_block2_2 {
+        margin-top: 20px;
+        @include font(18px, $white, 400, $open-sans);
     }
+
+    .futer_block2_3 {
+        margin-top: 20px;
+        @include font(18px, $white, 400, $open-sans);
+    }
+
+    .futer_block2_4 {
+        margin-top: 20px;
+        @include font(18px, $white, 400, $open-sans);
+    }
+}
+
+.futer_block3_1 {
+    margin-bottom: 46px;
+    @include font(24px, $white, 400, $open-sans);
+}
+
+.futer_futer {
+    margin-top: 25px;
+    text-align: center;
+
+    .futer_description {
+        margin-bottom: 50px;
+        @include font(16px, $white, 400, $open-sans);
+    }
+}

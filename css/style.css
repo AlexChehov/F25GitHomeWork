@@ -26,40 +26,37 @@ html {
   width: 135px;
   height: 50px;
 }
-.header_menu_logo .header_line .header_logo_cup .header_logo_cup:hover img {
-  transform: scale(1.1);
-}
-.header_menu_logo .menu {
+.header_menu_logo .header_line .menu {
   display: flex;
   align-items: center;
 }
-.header_menu_logo .menu-burger {
+.header_menu_logo .header_line .menu-burger {
   display: none;
   transition: 1s ease-in-out;
   z-index: 100;
 }
-.header_menu_logo .menu-burger div {
+.header_menu_logo .header_line .menu-burger div {
   width: 54px;
   height: 29px;
   background: #FF4B32;
   transition: 1s ease-in-out;
 }
-.header_menu_logo .menu-burger div:nth-child(2) {
+.header_menu_logo .header_line .menu-burger div:nth-child(2) {
   margin: 10px 0;
 }
-.header_menu_logo .menu-item {
+.header_menu_logo .header_line .menu-item {
   display: inline-block;
   margin: 0 29px;
   opacity: 0.6;
   margin-top: 15px;
 }
-.header_menu_logo .menu-item.active {
+.header_menu_logo .header_line .menu-item.active {
   position: relative;
 }
-.header_menu_logo .menu-item.active a {
+.header_menu_logo .header_line .menu-item.active a {
   color: white;
 }
-.header_menu_logo .menu-item.active::before {
+.header_menu_logo .header_line .menu-item.active::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -68,22 +65,22 @@ html {
   bottom: -30px;
   left: 0;
 }
-.header_menu_logo .menu-link {
+.header_menu_logo .header_line .menu-link {
   font-size: 15;
   color: #CDCDCD;
   font-weight: 400;
   font-family: "open sans", sans-serif;
 }
-.header_menu_logo .menu-list {
+.header_menu_logo .header_line .menu-list {
   transition: 1s ease-in-out;
 }
-.header_menu_logo .search_cart {
+.header_menu_logo .header_line .search_cart {
   display: inline-flex;
 }
-.header_menu_logo .search_cart .search {
+.header_menu_logo .header_line .search_cart .search {
   margin-right: 19px;
 }
-.header_menu_logo .search_cart .cart {
+.header_menu_logo .header_line .search_cart .cart {
   margin-left: 19px;
 }
 
@@ -458,6 +455,7 @@ html {
   text-align: center;
 }
 .futer_futer .futer_description {
+  margin-bottom: 50px;
   font-size: 16px;
   color: white;
   font-weight: 400;
