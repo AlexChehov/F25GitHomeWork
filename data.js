@@ -25,5 +25,5 @@ let songs = [
         path:' trec5.mp3',
         artist:'artist 5',
     },
-    
-];
+
+]
