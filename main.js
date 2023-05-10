@@ -1,6 +1,6 @@
 const audioElement = document.querySelector("audio");
 
-const audioTracks = ["sound.wav", "sound2.wav"];
+const audioTracks = ["trec1.mp3", "trec2.mp3" , "trec3.mp3" , "trec4.mp3" , "trec5.mp3"];
 let currentTrackIndex = 0;
 
 audioElement.src = audioTracks[currentTrackIndex];
